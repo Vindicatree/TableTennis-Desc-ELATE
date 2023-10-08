@@ -610,6 +610,92 @@ details ol ol{
     }
 }
 
+/*rundown*/
+
+.rundown{
+    height: 80vh;
+    width: 100%;
+    display: grid;
+    place-content: center;
+}
+
+.rundown img{
+    height: 55vh;
+    width: auto;
+    border: 7px solid #9A7047;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px 2px #000;
+    transition: .3s;
+}
+
+.rundown img:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+@media (max-width: 900px){
+    .rundown img{
+        height: 45vh;
+        width: auto;
+    }
+}
+
+@media (max-width: 730px){
+    .rundown img{
+        height: 40vh;
+        width: auto;
+    }
+}
+
+@media (max-width: 655px){
+    .rundown img{
+        height: 35vh;
+        width: auto;
+    }
+}
+
+@media (max-width: 590px){
+    .rundown img{
+        height: 30vh;
+        width: auto;
+    }
+
+    .rundown{
+        height: 70vh;
+    }
+}
+
+@media (max-width: 500px){
+    .rundown img{
+        height: 25vh;
+        width: auto;
+    }
+}
+
+@media (max-width: 420px){
+    .rundown img{
+        height: 20vh;
+        width: auto;
+    }
+
+    .rundown{
+        height: 50vh;
+    }
+
+    @media (max-height: 790px){
+        .rundown img{
+            height: 25vh;
+            width: auto;
+        }
+    }
+    @media (max-height: 680px){
+        .rundown img{
+            height: 30vh;
+            width: auto;
+        }
+    }
+}
+
 /*outro*/
 
 .outro{
